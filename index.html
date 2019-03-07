@@ -40,8 +40,8 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
   <meta name="Keywords" content="DMR Capital, Investments, Investment, Investing, Investment Strategies, Investment Services" >
   <meta name="author" content="@ssbramson">
   <meta name="copyright" content="DMR Capital, LLC">
-  <meta name="msapplication-TileColor" content="#232223">
-  <meta name="theme-color" content="#232223">
+  <meta name="msapplication-TileColor" content="#F6F7F6">
+  <meta name="theme-color" content="#F6F7F6">
   
   <!-- PRELOADS -->
   <link rel="preload" as="font" href="assets/webfonts/Cinzel-Regular.woff2" type="font/woff2" crossorigin="anonymous">
@@ -49,11 +49,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
 
   <!-- PAGE SPECIFIC CSS STYLING -->
   <style type="text/css">
-    /* ENTER PAGE SPECIFIC STYLING HERE */
-
-    /*
-    VARIABLE DECELERATIONS
-    */
+    /*VARIABLE DECELERATIONS*/
     :root {
       /* colors */
       --color-black-rgb:35,34,35;
@@ -79,7 +75,6 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
     /*
     BROWSER CONSISTENCY
     */
-
     html,
     body,
     noscript,
@@ -126,66 +121,25 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
       line-height: 1.5;
     }
 
-    html,
-    body,
-    noscript,
-    div,
-    span,
-    a,
-    p,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    ol,
-    ul,
-    li,
-    b,
-    button,
-    img,
-    input,
-    strong,
-    sub,
-    sup {
+    html,body,noscript,div,span,a,h1 {
       border: none;
       margin: 0;
       padding: 0;
     }
 
-    button,
-    input {
-      background: transparent;
-    }
-
-    article,
-    aside,
+    
     footer,
-    header,
-    main
-    nav,
-    section {
+    main {
       display: block;
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-size: 100%;
-      font-weight: var(--font_weight-regular);
-    }
+    h1 {font-size: 100%;font-weight: var(--font_weight-regular);}
 
     /* 
     PAGE STYLING
     */
 
-    body {
-      background-color: rgba(var(--color-white-rgb), 1.0);
-    }
+    body {background-color: rgba(var(--color-white-rgb), 1.0);}
 
     .root-container {
       background-color: rgba(var(--color-white-rgb), 1.0);
@@ -204,14 +158,9 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
       text-decoration: none;
     }
 
-    .page-container,
-    .footer-container {
-      grid-column: 2 / 3;
-    }
+    .page-container,.footer-container {grid-column: 2 / 3;}
 
-    .page-container {
-      grid-row: 2 / 3;
-    }
+    .page-container {grid-row: 2 / 3;}
 
     .footer-container {
       align-self: end;
@@ -220,20 +169,11 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
       grid-row: 3 / 4;
     }
 
-    .logo-header {
-      font-family: var(--font_family-primary), var(--font_family-sans_serif);
-      font-size: 3.0rem;
-    }
+    .logo-header {font-family: var(--font_family-primary), var(--font_family-sans_serif);font-size: 3.0rem;}
 
+    footer a,.footer-legal {display: inline;}
 
-    footer a,
-    .footer-legal {
-      display: inline;
-    }
-
-    .vertical_line {
-      margin: 0.0rem 0.8rem;
-    }
+    .vertical_line {margin: 0.0rem 0.8rem;}
 
     /*
     WEBFONTS 
@@ -255,25 +195,12 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
       font-weight: 400;
       unicode-range: U+0021-007D;
     }
-
-    
   </style>
-
+  
+  <!-- MANIFEST -->
+  <link rel="manifest" href="site.webmanifest">
 </head>
 <body>
-
-  <div class="root-container">
-    <main class="page-container">
-      <h1 class="logo-header">DMR Capital</h1>
-    </main>
-
-    <footer class="footer-container">
-      <a href="mailto:Dino@DMR.Capital" class="" rel="noopener noreferrer" role="link" target="_blank">Contact</a><span class="vertical_line">&VerticalLine;</span><span class="footer-legal">DMR Capital, LLC &copy; 2019</span>
-    </footer>
-  </div>
-
-  
-
-  
+  <div class="root-container"><main class="page-container"><h1 class="logo-header">DMR Capital</h1></main><footer class="footer-container"><a href="mailto:Dino@DMR.Capital" class="" rel="noopener noreferrer" role="link" target="_blank">Contact</a><span class="vertical_line">&VerticalLine;</span><span class="footer-legal">DMR Capital, LLC</span></footer></div>  
 </body>
 </html>
